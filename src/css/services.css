@@ -1,0 +1,86 @@
+
+  
+  .container {
+    max-width: 100%;
+    display: flex ;
+    flex-direction: column;
+    padding-top: 90px;
+    padding-bottom: 0%;
+  }
+  
+  .park-section {
+    max-width: 80%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #000000bd;
+    color: rgb(233, 228, 228);
+    border: 2px solid #ffd700;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .park-image {
+    flex: 1;
+    max-width: 50%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .park-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .park-info {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .park-info h2 {
+    color: gold;
+    font-size: 24px;
+  }
+  
+  .park-info p {
+    margin: 10px 0;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  #service_btn {
+    background-color: gold;
+    border: none;
+    width: 150px;
+    height: 50px;
+    padding: 10px 20px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 3px;
+    align-self: flex-start;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  #service_btn:hover {
+    background-color: #ddd;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .park-section {
+      flex-direction: column;
+    }
+  
+    .park-image, .park-info {
+      max-width: 100%;
+    }
+  }
+  

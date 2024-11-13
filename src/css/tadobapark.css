@@ -1,0 +1,349 @@
+.park-container{
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+
+    /* height: 100vh; */
+}
+.container_{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 90%;
+    height: 690px;
+    padding: 20px;
+    /* background-color: #ffcc00; */
+    margin: auto auto;
+    /* align-items: flex-start; */
+}
+.image-container {
+    /* flex: 1; */
+    width: 50%;
+
+}
+.image-container img {
+    max-width: 85%;
+    margin: auto auto;
+    height: auto;
+    border-radius: 8px;
+}
+.text-container {
+    width: 50%;
+    /* flex: 2; */
+    margin-left: 20px;
+}
+.text-container h1 {
+    font-size: 3rem;
+    color: #ffcc00;
+}
+.text-container p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: white;
+}
+.info {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.info span {
+    margin-right: 10px;
+    font-size: 1.2rem;
+    color: #ffcc00;
+}
+.info i {
+    color: #ffcc00;
+    font-size: 1.3rem;
+}
+
+.details-container ul{
+    display: flex;
+    gap: 120px;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+.details-container ul li{
+    list-style: none;
+    text-transform: uppercase;
+    color: gray;
+    cursor: pointer;
+    font-size: small;
+    padding: 10px 20px;
+}
+.details-container ul li:hover{
+    color: gold;
+    /* border-bottom: 2px solid gold; */
+}
+.active-button{
+    color: #ffcc00; 
+    border-bottom: 2px solid #ffcc00; 
+  }
+
+/* ------------------heighlight section---------------- */
+
+.about-details{
+    display: flex;
+    max-width: 90%;
+    /* justify-content: center; */
+    margin: auto auto;
+}
+.highlight-img{
+    width: 50%;
+    height: 400px;
+}
+.highlight-img img{
+    width: 80%;
+    height: 100%;
+    display: block;
+    margin: auto auto;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.highlight-details{
+    margin-left: 120px;
+    width: 50%;
+}
+.highlight-details h1{
+    color: #ffcc00;
+    font-size: 40px;
+    margin-bottom: 50px;
+    /* text-align: left; */
+}
+.highlight-details ol{
+    margin-left: 25px;
+    line-height: 50px;
+}
+
+/* -----------------dropdown section------------------------ */
+
+.dropdown-container{
+    max-width: 90%;
+    margin: auto auto;
+}
+.dropdown-btn {
+    color: #ffd700;
+    background-color: #000000;
+    padding: 15px;
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+    border: 2px solid #ffd700 ;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    margin-bottom: 2px;
+}
+  
+.dropdown-content {
+background-color: #272727;
+padding: 20px;
+border-radius: 5px;
+}
+  
+.dropdown-content img {
+    max-width: 100%;
+    height: auto;
+}
+  
+.icons {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+}
+.images {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.images img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border: none;
+}
+.dropdown-content ul {
+    margin-left: 50px;
+    margin-top: 30px;
+    
+}
+
+.dropdown-content ul li {
+    padding: 5px;
+    /* color: #ffd700; */
+}
+.icon i{
+    color: #ffd700;
+    margin: auto auto;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 40px;
+}
+.icon p{
+    text-align: center;
+    font-size: 18px;
+}
+.dropdown-btn:hover {
+    background-color: #ffcc33;
+    color: #000;
+}
+.safari-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.toggle-icon {
+    transition: transform 0.3s ease;
+}
+
+.rotate {
+    transform: rotate(180deg);
+}
+#Itenary_,#Highlits_,#include_,#pricing_{
+    padding-bottom: 200px;
+}
+
+/* -----------------------include and excludes -------------------------*/
+
+.content {
+    max-width: 60%;
+    margin: auto auto;
+    /* padding: 20px; */
+    border-bottom: 2px solid #e1b823;
+  }
+  
+  .section {
+    margin-bottom: 40px;
+  }
+  
+  .heading {
+    color: #e1b823;
+    font-size: 24px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .list {
+    /* list-style: none; */
+    padding-left: 20px;
+  }
+  
+  .list li {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  /* Styling the border at the bottom
+  .content::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #e1b823;
+    margin-top: 20px;
+  } */
+
+  /* ---------------------------price container here------------------ */
+
+#pricing_{
+    max-width: 60%;
+    margin: auto auto;
+}
+.price-container {
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    border-bottom: 2px solid gold ;
+}
+h1 {
+    color: gold;
+}
+.price {
+    font-size: 36px;
+    margin: 0;
+}
+.gst {
+    font-size: 18px;
+    color: #bdbdbd;
+    margin-bottom: 20px;
+}
+.procedure {
+    margin: 0 auto;
+    width: 100%;
+}
+.procedure h2 {
+    color: gold;
+    margin-bottom: 20px;
+}
+.procedure ul {
+    /* list-style-type: none; */
+    padding: 0;
+    text-align: left;
+}
+.procedure ul li {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.highlight {
+    color: gold;
+}
+.policy-container {
+    text-align: left;
+    padding: 20px;
+    border-bottom: 2px solid gold;
+    margin-bottom: 50px;
+}
+.policy{
+    padding-top: 50px;
+    width: 100%;
+    margin: 0 auto;
+}
+h1 {
+    color: gold;
+    text-align: center;
+}
+.policy ul {
+    /* list-style-type: none; */
+    padding: 0;
+}
+.policy ul li {
+    margin-bottom: 10px;
+}
+.policy .highlight {
+    color: gold;
+}
+.booking-btn{
+    display: block;
+    margin: auto auto;
+    padding: 20px 70px;
+    font-size: 30px;
+    background-color: #000;
+    color: gold;
+    border: 2px solid gold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.booking-btn:hover{
+    border: none;
+    background-color: gold;
+    color: black;
+}
+
+/* ------------------------------------------------------------------ */
+@media (max-width: 1024px) {
+    
+}
+@media (max-width: 768px) {
+    
+}
+@media (max-width: 600px) {
+    
+}
